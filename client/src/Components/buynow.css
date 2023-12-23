@@ -1,0 +1,32 @@
+.buy-now {
+    @apply flex justify-around p-10;
+  }
+  
+  .buypage {
+    @apply w-1/2;
+  }
+  
+  .payment {
+    @apply w-2/5;
+  }
+  
+  .payment form {
+    @apply flex flex-col;
+  }
+  
+  .payment label {
+    @apply mt-5;
+  }
+  
+  .payment input {
+    @apply w-full p-2 mt-2;
+  }
+  
+  .payment button {
+    @apply mt-5 p-3 bg-green-500 text-white border-none cursor-pointer;
+  }
+  
+  .payment button:hover {
+    @apply bg-green-600;
+  }
+  

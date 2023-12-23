@@ -1,0 +1,33 @@
+/* Navbar.css */
+
+/* Overall Navbar styles */
+.navbar {
+  @apply flex justify-between items-center bg-blue-500 p-4;
+}
+
+/* Logo styles */
+.nav-logo img {
+  @apply cursor-pointer;
+}
+
+/* Cart icon styles */
+.nav-cart img {
+  @apply cursor-pointer;
+}
+
+/* Cart count styles */
+.cart-count {
+  @apply bg-red-500 text-white rounded-full px-2 py-1 ml-2 text-sm;
+}
+
+/* Login and Signup button styles */
+.nav-login button,
+.nav-signup button {
+  @apply px-4 py-2 bg-white text-blue-500 border border-blue-500 rounded-full cursor-pointer;
+}
+
+/* Login and Signup button hover styles */
+.nav-login button:hover,
+.nav-signup button:hover {
+  @apply bg-blue-500 text-white;
+}

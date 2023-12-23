@@ -1,0 +1,24 @@
+/* M.css */
+.mobile-card {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttons button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #45a049;
+  }
+  
